@@ -1,0 +1,84 @@
+<root>
+  <topology>
+    <nodes>
+        <node id="1">
+            <locationap coordinate="50,80,0"/>
+            <locationsta coordinate="30,80,0"/>
+        </node>
+        <node id="2">
+            <locationap coordinate="80,110,0"/>
+            <locationsta coordinate="80,130,0"/>
+        </node>
+        <node id="3">
+            <locationap coordinate="140,110,0"/>
+            <locationsta coordinate="140,130,0"/>
+        </node>
+        <node id="4">
+            <locationap coordinate="140,50,0"/>
+            <locationsta coordinate="140,30,0"/>
+        </node>
+        <node id="5">
+            <locationap coordinate="80,50,0"/>
+            <locationsta coordinate="80,30,0"/>
+        </node>
+        <node id="6">
+            <locationap coordinate="110,80,0"/>
+            <locationsta coordinate="130,80,0"/>
+        </node>
+    </nodes>
+
+    <links>
+        
+        <link id="1_2">
+            <from if="0" node="1"/>
+            <to if="0" node="2"/>
+        </link>
+
+        <link id="1_5">
+            <from if="0" node="1"/>
+            <to if="0" node="5"/>
+        </link>
+
+        <link id="2_3">
+            <from if="0" node="2"/>
+            <to if="0" node="3"/>
+        </link>
+
+        <link id="2_5">
+            <from if="0" node="2"/>
+            <to if="0" node="5"/>
+        </link>
+
+        <link id="2_6">
+            <from if="0" node="2"/>
+            <to if="0" node="6"/>
+        </link>
+
+        <link id="3_4">
+            <from if="0" node="3"/>
+            <to if="0" node="4"/>
+        </link>
+
+        <link id="3_6">
+            <from if="0" node="3"/>
+            <to if="0" node="6"/>
+        </link>
+
+        <link id="4_5">
+            <from if="0" node="4"/>
+            <to if="0" node="5"/>
+        </link>
+
+        <link id="4_6">
+            <from if="0" node="4"/>
+            <to if="0" node="6"/>
+        </link>
+
+        <link id="5_6">
+            <from if="0" node="5"/>
+            <to if="0" node="6"/>
+        </link>
+        
+    </links>
+  </topology>
+</root>

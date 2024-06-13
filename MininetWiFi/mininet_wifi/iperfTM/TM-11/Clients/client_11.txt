@@ -1,0 +1,28 @@
+#!/bin/bash 
+echo Generating traffic...
+iperf3 -c 192.168.0.1 -p 11001 -u -b 0.39M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.2 -p 11002 -u -b 20.86M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.3 -p 11003 -u -b 4.74M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.4 -p 11004 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.5 -p 11005 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.6 -p 11006 -u -b 20.36M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.7 -p 11007 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.8 -p 11008 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.9 -p 11009 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.10 -p 11010 -u -b 30.15M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.12 -p 11012 -u -b 34.60M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.13 -p 11013 -u -b 34.85M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.14 -p 11014 -u -b 40.01M -t 20 >/dev/null 2>&1 &
+sleep 0.4

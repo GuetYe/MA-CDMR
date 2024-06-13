@@ -1,0 +1,119 @@
+<root>
+  <topology>
+    <nodes>
+      # 第一子域网络
+      <node id="1">
+          <locationap coordinate="20,30,0"/>
+          <locationsta coordinate="20,20,0"/>
+      </node>
+      <node id="2">
+          <locationap coordinate="40,60,0"/>
+          <locationsta coordinate="40,50,0"/>
+      </node>
+      <node id="3">
+          <locationap coordinate="60,30,0"/>
+          <locationsta coordinate="60,20,0"/>
+      </node>
+      <node id="4">
+          <locationap coordinate="90,30,0"/>
+          <locationsta coordinate="90,20,0"/>
+      </node>
+      <node id="5">
+          <locationap coordinate="120,60,0"/>
+          <locationsta coordinate="120,50,0"/>
+      </node>
+      <node id="6">
+          <locationap coordinate="150,30,0"/>
+          <locationsta coordinate="150,20,0"/>
+      </node>
+      <node id="7">
+          <locationap coordinate="180,30,0"/>
+          <locationsta coordinate="180,20,0"/>
+      </node>
+      <node id="8">
+          <locationap coordinate="210,60,0"/>
+          <locationsta coordinate="210,50,0"/>
+      </node>
+      <node id="9">
+          <locationap coordinate="240,30,0"/>
+          <locationsta coordinate="240,20,0"/>
+      </node>
+      
+    </nodes>
+    # 链路连接信息
+    <links>
+      # 第一个域内的Ap链路情况
+      <link id="1_2">
+        <from if="0" node="1"/>
+        <to if="0" node="2"/>
+      </link>
+      <link id="1_3">
+        <from if="0" node="1"/>
+        <to if="0" node="3"/>
+      </link>
+      <link id="2_3">
+        <from if="0" node="2"/>
+        <to if="0" node="3"/>
+      </link>
+      <link id="4_5">
+        <from if="0" node="4"/>
+        <to if="0" node="5"/>
+      </link>
+
+      <link id="4_6">
+        <from if="0" node="4"/>
+        <to if="0" node="6"/>
+      </link>
+      <link id="5_6">
+        <from if="0" node="5"/>
+        <to if="0" node="6"/>
+      </link>
+
+      <link id="7_8">
+        <from if="0" node="7"/>
+        <to if="0" node="8"/>
+      </link>
+
+      
+      <link id="7_9">
+        <from if="0" node="7"/>
+        <to if="0" node="9"/>
+      </link>
+      
+      <link id="8_9">
+        <from if="0" node="8"/>
+        <to if="0" node="9"/>
+      </link>
+      # 第一子域与第二子域的链路连接
+      <link id="2_5">
+        <from if="0" node="2"/>
+        <to if="0" node="5"/>
+      </link>
+
+      <link id="3_4">
+        <from if="0" node="3"/>
+        <to if="0" node="4"/>
+      </link>
+      # 第一子域与第三子域的链路连接
+       <link id="2_8">
+        <from if="0" node="2"/>
+        <to if="0" node="8"/>
+      </link>
+
+      <link id="1_9">
+        <from if="0" node="1"/>
+        <to if="0" node="9"/>
+      </link>
+      # 第二子域与第三子域的链路连接
+      <link id="5_8">
+        <from if="0" node="5"/>
+        <to if="0" node="8"/>
+      </link>
+
+      <link id="6_7">
+        <from if="0" node="6"/>
+        <to if="0" node="7"/>
+      </link>
+    </links>
+  </topology>
+</root>

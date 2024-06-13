@@ -1,0 +1,28 @@
+#!/bin/bash 
+echo Generating traffic...
+iperf3 -c 192.168.0.1 -p 2001 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.3 -p 2003 -u -b 2.85M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.4 -p 2004 -u -b 1.25M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.5 -p 2005 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.6 -p 2006 -u -b 12.22M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.7 -p 2007 -u -b 22.53M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.8 -p 2008 -u -b 16.25M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.9 -p 2009 -u -b 22.51M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.10 -p 2010 -u -b 18.10M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.11 -p 2011 -u -b 20.86M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.12 -p 2012 -u -b 20.77M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.13 -p 2013 -u -b 0.00M -t 20 >/dev/null 2>&1 &
+sleep 0.4
+iperf3 -c 192.168.0.14 -p 2014 -u -b 24.02M -t 20 >/dev/null 2>&1 &
+sleep 0.4

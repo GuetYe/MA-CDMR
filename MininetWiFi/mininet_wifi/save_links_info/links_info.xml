@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<links_info>
+	<links>(1, 3)<ports>(1, 1)</ports>
+		<free_bw>39</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>90.0</distance>
+	</links>
+	<links>(1, 4)<ports>(2, 1)</ports>
+		<free_bw>38</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>67.08</distance>
+	</links>
+	<links>(1, 5)<ports>(3, 1)</ports>
+		<free_bw>32</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>67.08</distance>
+	</links>
+	<links>(1, 11)<ports>(4, 1)</ports>
+		<free_bw>7</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>30.0</distance>
+	</links>
+	<links>(2, 4)<ports>(1, 2)</ports>
+		<free_bw>28</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>60.0</distance>
+	</links>
+	<links>(2, 5)<ports>(2, 2)</ports>
+		<free_bw>21</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>42.43</distance>
+	</links>
+	<links>(2, 6)<ports>(3, 1)</ports>
+		<free_bw>35</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>42.43</distance>
+	</links>
+	<links>(3, 6)<ports>(2, 2)</ports>
+		<free_bw>40</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>60.0</distance>
+	</links>
+	<links>(4, 5)<ports>(3, 3)</ports>
+		<free_bw>39</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>42.43</distance>
+	</links>
+	<links>(4, 6)<ports>(4, 3)</ports>
+		<free_bw>5</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>42.43</distance>
+	</links>
+	<links>(4, 9)<ports>(5, 1)</ports>
+		<free_bw>31</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>108.17</distance>
+	</links>
+	<links>(4, 11)<ports>(6, 2)</ports>
+		<free_bw>16</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>94.87</distance>
+	</links>
+	<links>(4, 13)<ports>(7, 1)</ports>
+		<free_bw>33</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>134.16</distance>
+	</links>
+	<links>(5, 6)<ports>(4, 4)</ports>
+		<free_bw>11</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>60.0</distance>
+	</links>
+	<links>(5, 7)<ports>(5, 1)</ports>
+		<free_bw>30</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>67.08</distance>
+	</links>
+	<links>(5, 8)<ports>(6, 1)</ports>
+		<free_bw>8</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>60.0</distance>
+	</links>
+	<links>(7, 9)<ports>(2, 2)</ports>
+		<free_bw>28</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>42.43</distance>
+	</links>
+	<links>(8, 9)<ports>(2, 3)</ports>
+		<free_bw>26</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>30.0</distance>
+	</links>
+	<links>(8, 14)<ports>(3, 1)</ports>
+		<free_bw>34</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>30.0</distance>
+	</links>
+	<links>(9, 10)<ports>(4, 1)</ports>
+		<free_bw>18</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>60.0</distance>
+	</links>
+	<links>(9, 13)<ports>(5, 2)</ports>
+		<free_bw>34</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>30.0</distance>
+	</links>
+	<links>(10, 13)<ports>(2, 3)</ports>
+		<free_bw>21</free_bw>
+		<delay>1ms</delay>
+		<loss>1</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>67.08</distance>
+	</links>
+	<links>(11, 14)<ports>(3, 2)</ports>
+		<free_bw>23</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>30.0</distance>
+	</links>
+	<links>(12, 13)<ports>(1, 4)</ports>
+		<free_bw>23</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>60.0</distance>
+	</links>
+	<links>(12, 14)<ports>(2, 3)</ports>
+		<free_bw>22</free_bw>
+		<delay>1ms</delay>
+		<loss>0</loss>
+		<used_bw>0</used_bw>
+		<pkt_err>0</pkt_err>
+		<pkt_drop>0</pkt_drop>
+		<distance>30.0</distance>
+	</links>
+</links_info>

@@ -1,0 +1,403 @@
+<root>
+  <topology>
+    <nodes>
+      # 第一子域网络
+      <node id="1">
+          <locationap coordinate="30,120,0"/>
+          <locationsta coordinate="30,140,0"/>
+      </node>
+      <node id="2">
+          <locationap coordinate="45,90,0"/>
+          <locationsta coordinate="45,80,0"/>
+      </node>
+      <node id="3">
+          <locationap coordinate="30,60,0"/>
+          <locationsta coordinate="30,50,0"/>
+      </node>
+      <node id="4">
+          <locationap coordinate="60,45,0"/>
+          <locationsta coordinate="60,60,0"/>
+      </node>
+      <node id="5">
+          <locationap coordinate="30,30,0"/>
+          <locationsta coordinate="30,20,0"/>
+      </node>
+      <node id="6">
+          <locationap coordinate="60,20,0"/>
+          <locationsta coordinate="50,10,0"/>
+      </node>
+      <node id="7">
+          <locationap coordinate="90,30,0"/>
+          <locationsta coordinate="90,10,0"/>
+      </node>
+      <node id="8">
+          <locationap coordinate="80,75,0"/>
+          <locationsta coordinate="80,70,0"/>
+      </node>
+      <node id="9">
+          <locationap coordinate="60,130,0"/>
+          <locationsta coordinate="60,140,0"/>
+      </node>
+      <node id="10">
+          <locationap coordinate="90,120,0"/>
+          <locationsta coordinate="90,140,0"/>
+      </node>
+      # 第二子域网络
+      <node id="11">
+          <locationap coordinate="120,80,0"/>
+          <locationsta coordinate="120,70,0"/>
+      </node>
+      <node id="12">
+          <locationap coordinate="120,30,0"/>
+          <locationsta coordinate="120,40,0"/>
+      </node>
+      <node id="13">
+          <locationap coordinate="150,20,0"/>
+          <locationsta coordinate="150,10,0"/>
+      </node>
+      <node id="14">
+          <locationap coordinate="150,50,0"/>
+          <locationsta coordinate="150,60,0"/>
+      </node>
+      <node id="15">
+          <locationap coordinate="160,90,0"/>
+          <locationsta coordinate="150,80,0"/>
+      </node>
+      <node id="16">
+          <locationap coordinate="130,130,0"/>
+          <locationsta coordinate="120,140,0"/>
+      </node>
+      <node id="17">
+          <locationap coordinate="180,130,0"/>
+          <locationsta coordinate="170,140,0"/>
+      </node>
+      <node id="18">
+          <locationap coordinate="180,90,0"/>
+          <locationsta coordinate="180,110,0"/>
+      </node>
+      <node id="19">
+          <locationap coordinate="180,40,0"/>
+          <locationsta coordinate="180,30,0"/>
+      </node>
+      <node id="20">
+          <locationap coordinate="180,20,0"/>
+          <locationsta coordinate="170,30,0"/>
+      </node>
+      # 第三子域网络
+      <node id="21">
+          <locationap coordinate="210,160,0"/>
+          <locationsta coordinate="210,170,0"/>
+      </node>
+      <node id="22">
+          <locationap coordinate="215,100,0"/>
+          <locationsta coordinate="210,90,0"/>
+      </node>
+      <node id="23">
+          <locationap coordinate="220,50,0"/>
+          <locationsta coordinate="210,60,0"/>
+      </node>
+      <node id="24">
+          <locationap coordinate="210,30,0"/>
+          <locationsta coordinate="210,20,0"/>
+      </node>
+      <node id="25">
+          <locationap coordinate="240,120,0"/>
+          <locationsta coordinate="240,130,0"/>
+      </node>
+      <node id="26">
+          <locationap coordinate="245,70,0"/>
+          <locationsta coordinate="230,80,0"/>
+      </node>
+      <node id="27">
+          <locationap coordinate="250,40,0"/>
+          <locationsta coordinate="255,50,0"/>
+      </node>
+      <node id="28">
+          <locationap coordinate="270,160,0"/>
+          <locationsta coordinate="275,180,0"/>
+      </node>
+      <node id="29">
+          <locationap coordinate="300,120,0"/>
+          <locationsta coordinate="310,110,0"/>
+      </node>
+      <node id="30">
+          <locationap coordinate="270,80,0"/>
+          <locationsta coordinate="280,100,0"/>
+      </node>
+    </nodes>
+    # 链路连接信息
+    <links>
+      # 第一个域内的Ap链路情况
+      <link id="1_2">
+        <from if="0" node="1"/>
+        <to if="0" node="2"/>
+      </link>
+      <link id="1_9">
+        <from if="0" node="1"/>
+        <to if="0" node="9"/>
+      </link>
+
+      <link id="2_3">
+        <from if="0" node="2"/>
+        <to if="0" node="3"/>
+      </link>
+      <link id="2_8">
+        <from if="0" node="2"/>
+        <to if="0" node="8"/>
+      </link>
+      <link id="2_9">
+        <from if="0" node="2"/>
+        <to if="0" node="9"/>
+      </link>
+
+      <link id="3_4">
+        <from if="0" node="3"/>
+        <to if="0" node="4"/>
+      </link>
+      <link id="3_5">
+        <from if="0" node="3"/>
+        <to if="0" node="5"/>
+      </link>
+      
+      <link id="4_5">
+        <from if="0" node="4"/>
+        <to if="0" node="5"/>
+      </link>
+      <link id="4_6">
+        <from if="0" node="4"/>
+        <to if="0" node="6"/>
+      </link>
+      <link id="4_8">
+        <from if="0" node="4"/>
+        <to if="0" node="8"/>
+      </link>
+      
+      <link id="5_6">
+        <from if="0" node="5"/>
+        <to if="0" node="6"/>
+      </link>
+
+      <link id="6_7">
+        <from if="0" node="6"/>
+        <to if="0" node="7"/>
+      </link>
+
+      <link id="7_8">
+        <from if="0" node="7"/>
+        <to if="0" node="8"/>
+      </link>
+      
+      <link id="8_10">
+        <from if="0" node="8"/>
+        <to if="0" node="10"/>
+      </link>
+
+      <link id="9_10">
+        <from if="0" node="9"/>
+        <to if="0" node="10"/>
+      </link>
+
+      # 第一子域与第二子域的链路连接
+      <link id="7_12">
+        <from if="0" node="7"/>
+        <to if="0" node="12"/>
+      </link>
+
+      <link id="8_11">
+        <from if="0" node="8"/>
+        <to if="0" node="11"/>
+      </link>
+
+      <link id="10_16">
+        <from if="0" node="10"/>
+        <to if="0" node="16"/>
+      </link>
+
+      # 第二个域内的Ap链路情况
+      <link id="11_12">
+        <from if="0" node="11"/>
+        <to if="0" node="12"/>
+      </link>
+      <link id="11_14">
+        <from if="0" node="11"/>
+        <to if="0" node="14"/>
+      </link>
+      <link id="11_15">
+        <from if="0" node="11"/>
+        <to if="0" node="15"/>
+      </link>
+      <link id="11_16">
+        <from if="0" node="11"/>
+        <to if="0" node="16"/>
+      </link>
+
+      <link id="12_13">
+        <from if="0" node="12"/>
+        <to if="0" node="13"/>
+      </link>
+      <link id="12_14">
+        <from if="0" node="12"/>
+        <to if="0" node="14"/>
+      </link>
+
+      <link id="13_14">
+        <from if="0" node="13"/>
+        <to if="0" node="14"/>
+      </link>
+      <link id="13_20">
+        <from if="0" node="13"/>
+        <to if="0" node="20"/>
+      </link>
+
+      <link id="14_15">
+        <from if="0" node="14"/>
+        <to if="0" node="15"/>
+      </link>
+      <link id="14_19">
+        <from if="0" node="14"/>
+        <to if="0" node="19"/>
+      </link>
+      
+      <link id="15_16">
+        <from if="0" node="15"/>
+        <to if="0" node="16"/>
+      </link>
+      <link id="15_17">
+        <from if="0" node="15"/>
+        <to if="0" node="17"/>
+      </link>
+      <link id="15_18">
+        <from if="0" node="15"/>
+        <to if="0" node="18"/>
+      </link>
+      <link id="15_19">
+        <from if="0" node="15"/>
+        <to if="0" node="19"/>
+      </link>
+
+       <link id="16_17">
+        <from if="0" node="16"/>
+        <to if="0" node="17"/>
+      </link>
+
+      <link id="17_18">
+        <from if="0" node="17"/>
+        <to if="0" node="18"/>
+      </link>
+      
+      <link id="18_19">
+        <from if="0" node="18"/>
+        <to if="0" node="19"/>
+      </link>
+      
+      <link id="19_20">
+        <from if="0" node="19"/>
+        <to if="0" node="20"/>
+      </link>
+     
+      # 第二子域与第三子域的链路连接
+      <link id="17_21">
+        <from if="0" node="17"/>
+        <to if="0" node="21"/>
+      </link>
+       <link id="17_22">
+        <from if="0" node="17"/>
+        <to if="0" node="22"/>
+      </link>
+
+      <link id="18_22">
+        <from if="0" node="18"/>
+        <to if="0" node="22"/>
+      </link>
+      <link id="18_23">
+        <from if="0" node="18"/>
+        <to if="0" node="23"/>
+      </link>
+
+      <link id="19_23">
+        <from if="0" node="19"/>
+        <to if="0" node="23"/>
+      </link>
+      <link id="19_24">
+        <from if="0" node="19"/>
+        <to if="0" node="24"/>
+      </link>
+
+      <link id="20_24">
+        <from if="0" node="20"/>
+        <to if="0" node="24"/>
+      </link>
+
+      # 第三个域内的Ap链路情况
+      <link id="21_22">
+        <from if="0" node="21"/>
+        <to if="0" node="22"/>
+      </link>
+      <link id="21_25">
+        <from if="0" node="21"/>
+        <to if="0" node="25"/>
+      </link>
+
+      <link id="22_23">
+        <from if="0" node="22"/>
+        <to if="0" node="23"/>
+      </link>
+      <link id="22_25">
+        <from if="0" node="22"/>
+        <to if="0" node="25"/>
+      </link>
+
+      <link id="23_24">
+        <from if="0" node="23"/>
+        <to if="0" node="24"/>
+      </link>
+      <link id="23_26">
+        <from if="0" node="23"/>
+        <to if="0" node="26"/>
+      </link>
+      <link id="23_27">
+        <from if="0" node="23"/>
+        <to if="0" node="27"/>
+      </link>
+
+      <link id="24_27">
+        <from if="0" node="24"/>
+        <to if="0" node="27"/>
+      </link>
+      
+      <link id="25_26">
+        <from if="0" node="25"/>
+        <to if="0" node="26"/>
+      </link>
+      <link id="25_28">
+        <from if="0" node="25"/>
+        <to if="0" node="28"/>
+      </link>
+
+      <link id="26_27">
+        <from if="0" node="26"/>
+        <to if="0" node="27"/>
+      </link>
+      <link id="26_30">
+        <from if="0" node="26"/>
+        <to if="0" node="30"/>
+      </link>
+
+      <link id="27_30">
+        <from if="0" node="27"/>
+        <to if="0" node="30"/>
+      </link>
+
+      <link id="28_29">
+        <from if="0" node="28"/>
+        <to if="0" node="29"/>
+      </link>
+
+      <link id="29_30">
+        <from if="0" node="29"/>
+        <to if="0" node="30"/>
+      </link>
+
+    </links>
+  </topology>
+</root>
